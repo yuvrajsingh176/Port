@@ -1,5 +1,5 @@
 import "./Navbar.css";
-import { BiSolidHomeHeart } from 'react-icons/bi' 
+import { FiHome } from  'react-icons/fi'
 import { BsFillPersonFill } from 'react-icons/bs'
 import { SiGooglescholar } from 'react-icons/si'
 import { PiProjectorScreenChartThin } from 'react-icons/pi'
@@ -16,7 +16,7 @@ const Navbar = () => {
                     <div className="ms-auto navbar-nav">
                         <div className="nav-item">
                             <a className="nav-link" href="/#home">
-                                <BiSolidHomeHeart/>
+                                <FiHome/>
                                 <span className="intro">Home</span>
 
                             </a>
