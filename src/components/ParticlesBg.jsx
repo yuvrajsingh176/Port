@@ -1,5 +1,4 @@
 import Particles from 'react-tsparticles'
-import pconfig from './config/particles-config.jsx';
 import {loadFull} from 'tsparticles'
 const ParticlesBG = () => {
     const loadParticles =async (main)=>{
