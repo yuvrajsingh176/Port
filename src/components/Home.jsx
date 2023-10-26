@@ -89,10 +89,10 @@ const Home = () => {
                     <p style={{display:"flex",  justifyContent:'center'}}>
                     Feel <span className="purple"> free </span> to connect with me</p>
                     <div className="logos">
-                 <a href="">     <FaGithubAlt />
-                 </a>                  <a href=""><RiTwitterXFill/></a> 
-                <a href=""> <FiLinkedin/></a>   
-                 <a href=""> <AiOutlineInstagram/></a>  
+                 <a href="https://github.com/yuvrajsingh176">     <FaGithubAlt />
+                 </a>                  <a href="https://twitter.com/Yuvrajsingh176"><RiTwitterXFill/></a> 
+                <a href="https://www.linkedin.com/in/yuvraj-singh-a46164206/"> <FiLinkedin/></a>   
+                 <a href="https://www.instagram.com/?hl=en"> <AiOutlineInstagram/></a>  
                         
                     </div>
                             <div className="buttons">

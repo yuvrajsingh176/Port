@@ -6,50 +6,50 @@ import { PiProjectorScreenChartThin } from 'react-icons/pi'
 import { PiCertificateBold } from 'react-icons/pi'
 import {FcDocument} from 'react-icons/fc'
 const Navbar = () => {
+    const handleScroll = (elementId) => {
+        scrollTo(elementId);
+    }
     return (
         <div className="navbar navbar navbar-expand-md navbar-light fixed-top">
             <div className="container">
-                <a href="/" className="d-flex navbar-brand"> 
+                <a href="/" className="d-flex navbar-brand" onClick={() => {
+                    handleScroll("/");
+                }}> 
                     <h1 className="logo-text">yuvi</h1>
                 </a>
                 <div className="navbar-collapse collapse">
                     <div className="ms-auto navbar-nav">
                         <div className="nav-item">
-                            <a className="nav-link" href="/#home">
+                            <a className="nav-link" href="#home" onClick={() => {
+                                handleScroll("home");
+                            }}>
                                 <FiHome/>
                                 <span className="intro">Home</span>
 
                             </a>
                         </div>
                         <div className="nav-item">
-                            <a className="nav-link" href="/#home">
+                            <a className="nav-link" href="#about" onClick={() => {
+                                handleScroll("about");
+                            }}>
                                 <BsFillPersonFill/>
                                 <span className="intro">About</span>
 
                             </a>
                         </div>
+                       
                         <div className="nav-item">
-                            <a className="nav-link" href="/#experience">
-                                <SiGooglescholar/>
-                            <span className="intro">Experience</span>
-                            </a>
-                        </div>
-                        <div className="nav-item">
-                            <a className="nav-link" href="/#projects">
+                            <a className="nav-link" href="#projects" onClick={() => {
+                                handleScroll("projects");
+                            }}>
                                 <PiProjectorScreenChartThin/>
                                 <span className="intro">Projects</span>
 
                             </a>
                         </div>
+                 
                         <div className="nav-item">
-                            <a className="nav-link" href="/#certifications">
-                                <PiCertificateBold/>
-                                <span className="intro">Certifications</span>
-
-                            </a>
-                        </div>
-                        <div className="nav-item">
-                            <a className="nav-link" href="/#resume">
+                            <a className="nav-link" href="https://drive.google.com/file/d/17ZE6LAeUrRuRR1kCgM_i5ui4kNTWhsNK/view?usp=sharing">
                                 <FcDocument/>
                                 <span className="intro">Resume</span>
 

@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import ParticlesBG from "./components/ParticlesBg";
 import About from "./components/About";
 import Project from "./components/Project";
+import Footer from "./components/Footer";
 function App() {
   useEffect(() => {
   if (document.getElementById("vanta")) {
@@ -32,7 +33,8 @@ function App() {
         <Navbar/>
         <Home />
         <About/>
-<Project/>
+      <Project />
+      <Footer/>
     </div>
 
       );

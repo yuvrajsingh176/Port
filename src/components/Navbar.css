@@ -94,3 +94,12 @@ width: 100%;
     margin-left: 4px;
     font-size: 19px;
 }
+html{
+    scroll-behavior: smooth;
+}
+.nav-link {
+    text-decoration: none; /* Remove the default underline */
+    color: #000; /* Set the link color to your preference */
+    cursor: pointer; /* Show a pointer cursor on hover (optional) */
+    /* Add any other styling you want */
+}
