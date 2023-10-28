@@ -23,7 +23,7 @@ const Project =() => {
             <p style={{fontSize:"2rem"}}>My Recent <span className='purple'> Works</span></p>
             <p style={{fontSize:"1rem",marginBottom:"2px"}} >Here are few projects I have worked upon</p>
         </div>
-        <div style={{display:"flex"}}>
+        <div className='projects-col' style={{display:"flex"}}>
       
         <div className='cards' >
         <div className="card">

@@ -6,9 +6,8 @@ const About = () => {
     return (
         <div id="about">
         <div className="row">
-        <div className="">
-            <div className="col-md-7" >
-                <h1>Know Who <span className='purple'>I'M</span></h1>
+            <div className="about-desc" >
+                <h1 className='kwi'>Know Who <span className='purple'>I'M</span></h1>
                 <p >Hi Everyone, I am Yuvraj Singh from Jeetpur, Nepal.<br></br>
                             I am a pursuing Btech CSE.</p>
                         <p >
@@ -22,9 +21,8 @@ const About = () => {
                         </ul>
                         <p className='purple'>"The only way to do great work is to love <br /> what you do and give it everything you've got." <br /> - Steve Jobs</p>
                     </div>
-        </div>
-        <div>
-<img src={gifi} style={{border:"none" , borderRadius:"50px"}}/>
+        <div className='penguin-div'>
+<img src={gifi}  style={{border:"none" , borderRadius:"50px",width:"90%",height:"90%"}}/>
         </div>
             </div>
             <div style={{marginLeft:"40px",marginTop:"100px",display:'flex', justifyContent:"center"}}>

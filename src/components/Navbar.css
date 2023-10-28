@@ -1,7 +1,6 @@
 .fixed-bottom,.fixed-top{
     left: 0;
     right: 0;
-z-index: 1030;
 }
 .fixed-top{
     top: 0  ;
@@ -9,12 +8,10 @@ z-index: 1030;
 .navbar{
     align-items: center;
     display: flex;
-
-}
-.navbar{
     padding:.3rem 2rem!important;
     position: fixed!important;
 }
+
 .navbar, .sticky {
     transition: all .3s ease-out 0s!important;
 }
@@ -40,15 +37,14 @@ width: 100%;
     font-size: 1.25rem;
     margin-right: 1rem;
     margin-left: 4rem;
+    color: #fafafa!important;
 
     padding-bottom: .3125rem;
     padding-top: .3125rem;
     text-decoration: none;
     white-space: nowrap;
 }
-.navbar-brand {
-    color: #fafafa!important;
-}
+
 .logo-text {
     font-family: Shantell Sans,cursive;
     font-size: 30px;
@@ -76,16 +72,16 @@ width: 100%;
     font-weight: 400;
     position: relative;
     transition: all .3s ease-out 0s;
-    z-index: 1;
+    /* z-index: 1; */
 }
-.navbar-nav .nav-link {
+ .nav-link {
     color: #fff!important;
     padding-left: 1rem!important;
+    padding: .8rem 1rem!important;
+
     padding-right: 1rem!important;
 }
-.nav-link {
-    padding: .8rem 1rem!important;
-}
+
 .nav-item a{
     text-decoration: none;
 
@@ -103,3 +99,130 @@ html{
     cursor: pointer; /* Show a pointer cursor on hover (optional) */
     /* Add any other styling you want */
 }
+.mobile-navbar-btn{
+    color: white;
+display: none;
+background: transparent;
+cursor: pointer;
+}
+.mobile-nav-icon{
+    width: 2rem;
+    height: 2rem;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    background-color: #29335C;
+    color: #eee;
+position: fixed;
+width: 100%;
+}
+nav a{
+    margin: 0 2rem;
+    color: #eee;
+    text-decoration: none;
+    
+}
+
+nav a:hover{
+    color: purple;
+
+}
+  header .nav-btn{
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #eee;
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+  }
+  /* header div,
+nav {
+	display: flex;
+	align-items: center;
+} */
+  /* @media only screen and (max-width:774px){
+
+    header .nav-btn{
+            visibility: visible;
+            opacity: 1;
+    }
+    header nav{
+        position: fixed;
+        top:  0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    background-color: #29335C;
+    transition: 1s;
+    transform: translateY(1vh);
+z-index: 1000;
+    }
+    header .responsive_nav{
+        transform: translateY(100vh);
+
+    }
+    nav .nav-close-btn{
+        position: absolute;
+		top: 1rem;
+		right: 4rem;
+font-size: 2rem;
+    }
+    nav a{
+        font-size: 1.6rem;
+    }
+
+  } */
+  @media only screen and (max-width: 774px) {
+    header .nav-btn {
+      visibility: visible;
+      opacity: 1;
+    }
+    header{
+        position: fixed;
+    }
+     nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1.5rem;
+      background-color: #29335C;
+      transition: 1s;
+      
+      /* Remove the transform property or set it to translateY(0) */
+      z-index: 1000;
+    }
+    header .responsive_nav {
+      transform: translateY(120vh);
+    }
+    nav .nav-close-btn {
+      position: absolute;
+      top: 1rem;
+      right: 4rem;
+      font-size: 2rem;
+    }
+    nav a {
+      font-size: 1.6rem;
+    }
+  }
+  header nav{
+    display: flex;
+  }

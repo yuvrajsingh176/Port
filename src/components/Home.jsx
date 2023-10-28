@@ -64,7 +64,7 @@ const Home = () => {
                 <div className="container">
                     <div className="roww">
                         <div className="home-about-description col-md-8">
-                            <h1 style={{ fontSize: '2.6em' }}>
+                            <h1 className="home-about-title">
                                 Let me
                                 <span className="purple"> Introduce </span>
                                 Myself

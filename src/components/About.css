@@ -15,6 +15,36 @@ margin: 20px;
   grid-template-columns: repeat(4,1fr);
   
 }
+@media (max-width:767px){
+    .kwi{
+font-size: 1.5rem;
+
+    }
+  .penguin-div img{
+    width: 50%;
+    height: 50%;
+    padding: 2rem;
+  }
+  .tech-icons-mainn
+{
+    display: grid;
+    justify-content: center;
+  grid-template-columns: repeat(2,1fr);
+  
+}
+}
+@media (max-width:767px){
+    .row{
+        flex-direction: column;
+    }
+
+.about-desc{
+margin-right: 100px;
+margin-left: 60px;
+
+}
+}
+
 .tech-icons{
     border-radius: 20px!important;
     box-shadow: 10px 10px 10px 10px rgba(89,4,168,.137)!important;
