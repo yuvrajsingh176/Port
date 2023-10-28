@@ -116,7 +116,7 @@ header{
     height: 80px;
     background-color: #29335C;
     color: #eee;
-position: fixed;
+position: absolute;
 width: 100%;
 }
 nav a{
@@ -190,9 +190,7 @@ font-size: 2rem;
       visibility: visible;
       opacity: 1;
     }
-    header{
-        position: fixed;
-    }
+ 
      nav {
       position: fixed;
       top: 0;

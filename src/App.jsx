@@ -29,8 +29,7 @@ function App() {
   return (
       <div className="app">
 <ParticlesBG/>    
-        
-        <Navbar/>
+<Navbar/>        
         <Home />
         <About/>
       <Project />
