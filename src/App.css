@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
 *{
   margin: 0;
   padding: 0;
+  font-family: 'Poppins', sans-serif;
 
 }
+
 body{
   background-color: black;
   overflow: auto;
-  
+
 }
 ::-webkit-scrollbar {
   display: none;
@@ -19,4 +23,5 @@ body{
 .app{
   position: absolute;
   z-index: 0;
+
 }

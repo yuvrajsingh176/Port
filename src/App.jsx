@@ -6,6 +6,7 @@ import ParticlesBG from "./components/ParticlesBg";
 import About from "./components/About";
 import Project from "./components/Project";
 import Footer from "./components/Footer";
+
 function App() {
   useEffect(() => {
   if (document.getElementById("vanta")) {

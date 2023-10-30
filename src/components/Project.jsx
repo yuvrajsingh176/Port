@@ -20,16 +20,15 @@ const Project =() => {
     return (
         <div className='main-div' id="projects">
         <div style={{display:"grid", justifyContent:"center",paddingTop:"1rem"}}>
-            <p style={{fontSize:"2rem"}}>My Recent <span className='purple'> Works</span></p>
-            <p style={{fontSize:"1rem",marginBottom:"2px"}} >Here are few projects I have worked upon</p>
-        </div>
+            <p style={{fontSize:"3rem",fontWeight:"bold"}}>My Recent <span className='purple'> Works</span></p>
+            </div>
         <div className='projects-col' style={{display:"flex"}}>
       
         <div className='cards' >
         <div className="card">
             <div style={{margin:"1rem"}}>
             <div style={{display:"flex",justifyContent:"center",margin:'10px'}}>
-            <img src={f} alt="" style={{width:"80%",height:"6rem"}}/>
+            <img src={f} alt="" style={{width:"100%",height:"10rem"}}/>
 
             </div>
             <div >
@@ -80,7 +79,7 @@ const Project =() => {
         <div className="card">
             <div style={{margin:"1rem"}}>
             <div style={{display:"flex",justifyContent:"center",margin:'10px'}}>
-            <img src={i} alt="" style={{width:"80%",height:"6rem"}}/>
+            <img src={i} alt="" style={{width:"100%",height:"10rem"}}/>
 
             </div>
             <div >
@@ -127,7 +126,7 @@ const Project =() => {
         <div className="card">
             <div style={{margin:"1rem"}}>
             <div style={{display:"flex",justifyContent:"center",margin:'10px'}}>
-            <img src={ec} alt="" style={{width:"80%",height:"6rem"}}/>
+            <img src={ec} alt="" style={{width:"100%",height:"10rem"}}/>
 
             </div>
             <div >

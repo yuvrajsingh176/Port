@@ -69,17 +69,21 @@ const Home = () => {
                                 <span className="purple"> Introduce </span>
                                 Myself
                             </h1>
+
                             <p className="home-about-body">
-                            I've developed a deep passion for programming, and I've gained proficiency in several classic programming languages such as <i className="purple"> C,C++,Java,Javascript</i> 
+                               <span> I've</span><span> developed</span> <span>a</span> <span>deep</span> <span>passion</span> <span>for</span> <span>programming,</span> <span>and </span><span>I've</span> <span>gained </span><span>proficiency </span> <span>in</span> <span>several </span><span>classic</span> <span>programming </span> <span>languages</span> <span> such as</span> <span> C</span>,<span>C++</span>,<span>Java</span>,<span>Javascript</span>.
+                                    
+
+                                    <br />
                                 <br />
-                                <br />
-                                My areas of interest primarily <i className="purple"> revolve around pioneering new web technologies and products. I'm also drawn to fields related to cloud computing and Android app development.</i>
+                                <span>My</span> <span>areas</span> <span>of</span> <span>interest</span> <span>primarily</span> <span>revolve</span> <span>around</span> <span>pioneering</span> <span>new</span> <span>web</span> <span>technologies</span> <span>and</span> <span>products.</span> <span>I'm</span> <span>also</span> <span>drawn</span> <span>to</span> <span>fields</span> <span>related</span> <span>to</span> <span>cloud</span> <span>computing</span> <span>and</span> <span>Android</span> <span>app</span> <span>development.</span>
+
                                 
 
                                 <br />
                                 <br />
-                                Whenever the opportunity arises, I enthusiastically channel my passion for product development, leveraging tools like <i className="purple">Node.js</i>, as well as <i className="purple">modern JavaScript libraries and frameworks</i>such as <i className="purple"> React.js</i>.
-                            
+                                <span>Whenever</span> <span>the</span> <span>opportunity</span> <span>arises,</span> <span>I</span> <span>enthusiastically</span> <span>channel</span> <span>my</span> <span>passion</span> <span>for</span> <span>product</span> <span>development,</span> <span>leveraging</span> <span>tools</span> <span>like</span> <span>Node.js,</span> <span>as</span> <span>well</span> <span>as</span> <span>modern</span> <span>JavaScript</span> <span>libraries</span> <span>and</span> <span>frameworks</span> <span>such</span> <span>as</span> <span>React.js.</span>
+
                             </p>
                         </div>
                     </div>
@@ -87,7 +91,7 @@ const Home = () => {
                     <div className="home-about-social">
                             <h2 style={{ paddingTop:'25px', display:"flex",  justifyContent:'center'}}>FIND ME ON</h2>
                     <p style={{display:"flex",  justifyContent:'center'}}>
-                    Feel <span className="purple"> free </span> to connect with me</p>
+                    Feel <span className="purple " style={{marginLeft:'0.3em',marginRight:'0.3em'}}>free</span> to connect with me</p>
                     <div className="logos">
                  <a href="https://github.com/yuvrajsingh176">     <FaGithubAlt />
                  </a>                  <a href="https://twitter.com/Yuvrajsingh176"><RiTwitterXFill/></a> 
