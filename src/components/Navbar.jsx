@@ -111,7 +111,7 @@ const Navbar = () => {
                         </div>
                  
                         <div className="nav-item">
-                            <a className="nav-link" href="https://drive.google.com/file/d/17ZE6LAeUrRuRR1kCgM_i5ui4kNTWhsNK/view?usp=sharing">
+                            <a className="nav-link" href="https://drive.google.com/file/d/1mvsOada_KpsQDIlu2Id-pJEVD8424ZK_/view">
                                 <FcDocument/>
                                 <span className="intro">Resume</span>
 
