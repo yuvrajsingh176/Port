@@ -87,7 +87,7 @@ const Navbar = () => {
         <div className="nav-item">
           <a
             className="nav-link"
-            href="https://drive.google.com/file/d/18Bttm8jT2SJHcoYmfVCVTZ51zhQ0gtIK/view?usp=sharing"
+            href="https://drive.google.com/file/d/1i4zEt8L8iFoxKq3X7fiQ4mOm66IpG86s/view?usp=sharing"
           >
             <FcDocument />
             <span className="intro">Resume</span>
